@@ -36,7 +36,7 @@ public sealed class StoreUIController : MonoBehaviour
 	[SerializeField] private Ease feedbackEaseIn = Ease.OutCubic;
 	[SerializeField] private Ease feedbackEaseOut = Ease.InCubic;
 
-	[Header("Currency Fail Animation")]
+	[Header("Currency Animation")]
 	[SerializeField] private float currencyPunchScale = 0.14f;
 	[SerializeField] private float currencyPunchDuration = 0.20f;
 	[SerializeField] private float currencyShakeDuration = 0.28f;
@@ -80,6 +80,21 @@ public sealed class StoreUIController : MonoBehaviour
 	private Tween coinsIconTween;
 	private Tween pearlsIconTween;
 
+	private RectTransform coinsTextRect;
+	private RectTransform pearlsTextRect;
+	private RectTransform coinsIconRect;
+	private RectTransform pearlsIconRect;
+
+	private Vector2 coinsTextBasePos;
+	private Vector2 pearlsTextBasePos;
+	private Vector2 coinsIconBasePos;
+	private Vector2 pearlsIconBasePos;
+
+	private Vector3 coinsTextBaseScale;
+	private Vector3 pearlsTextBaseScale;
+	private Vector3 coinsIconBaseScale;
+	private Vector3 pearlsIconBaseScale;
+
 	private float coinsIconBaseAlpha = 1f;
 	private float pearlsIconBaseAlpha = 1f;
 
@@ -88,8 +103,7 @@ public sealed class StoreUIController : MonoBehaviour
 		grid = itemGridRoot != null ? itemGridRoot.GetComponent<GridLayoutGroup>() : null;
 		gridRect = itemGridRoot as RectTransform;
 
-		if (coinsIcon != null) coinsIconBaseAlpha = coinsIcon.color.a;
-		if (pearlsIcon != null) pearlsIconBaseAlpha = pearlsIcon.color.a;
+		CacheCurrencyBases();
 
 		if (feedbackGroup != null)
 		{
@@ -116,6 +130,42 @@ public sealed class StoreUIController : MonoBehaviour
 
 		if (categoryButtons != null && categoryButtons.Count > 0 && categoryButtons[0] != null)
 			SelectCategory(categoryButtons[0].Id);
+	}
+
+	private void CacheCurrencyBases()
+	{
+		coinsTextRect = coinsText != null ? coinsText.transform as RectTransform : null;
+		pearlsTextRect = pearlsText != null ? pearlsText.transform as RectTransform : null;
+
+		coinsIconRect = coinsIcon != null ? coinsIcon.rectTransform : null;
+		pearlsIconRect = pearlsIcon != null ? pearlsIcon.rectTransform : null;
+
+		if (coinsIcon != null) coinsIconBaseAlpha = coinsIcon.color.a;
+		if (pearlsIcon != null) pearlsIconBaseAlpha = pearlsIcon.color.a;
+
+		if (coinsTextRect != null)
+		{
+			coinsTextBasePos = coinsTextRect.anchoredPosition;
+			coinsTextBaseScale = coinsTextRect.localScale;
+		}
+
+		if (pearlsTextRect != null)
+		{
+			pearlsTextBasePos = pearlsTextRect.anchoredPosition;
+			pearlsTextBaseScale = pearlsTextRect.localScale;
+		}
+
+		if (coinsIconRect != null)
+		{
+			coinsIconBasePos = coinsIconRect.anchoredPosition;
+			coinsIconBaseScale = coinsIconRect.localScale;
+		}
+
+		if (pearlsIconRect != null)
+		{
+			pearlsIconBasePos = pearlsIconRect.anchoredPosition;
+			pearlsIconBaseScale = pearlsIconRect.localScale;
+		}
 	}
 
 	private void OnEnable()
@@ -318,16 +368,24 @@ public sealed class StoreUIController : MonoBehaviour
 		var card = FindCard(item);
 		bool success = storeService.Buy(item);
 
+		AnimateBuyCurrency(item.currency);
+
 		if (success)
 		{
 			storeService.Equip(item);
-			if (card != null) card.PlayBuySuccess();
+
+			if (card != null)
+			{
+				card.PlayBuySuccess();
+				card.PlayEquipAnim();
+			}
+
 			RefreshAllCards();
 		}
 		else
 		{
 			if (card != null) card.PlayBuyFail();
-			PlayNotEnoughFeedback(item.currency);
+			ShowFeedback(item.currency == CurrencyType.Coins ? "NOT ENOUGH COINS" : "NOT ENOUGH PEARLS");
 		}
 	}
 
@@ -337,26 +395,77 @@ public sealed class StoreUIController : MonoBehaviour
 			return;
 
 		storeService.Equip(item);
+
+		var card = FindCard(item);
+		if (card != null)
+			card.PlayEquipAnim();
+
 		RefreshAllCards();
 	}
 
-	private void PlayNotEnoughFeedback(CurrencyType currency)
+	private void AnimateBuyCurrency(CurrencyType currency)
 	{
+		KillAndResetCurrencyAnims(currency);
 		AnimateCurrency(currency);
 		AnimateCurrencyIcon(currency);
-		ShowFeedback(currency == CurrencyType.Coins ? "NOT ENOUGH COINS" : "NOT ENOUGH PEARLS");
+	}
+
+	private void KillAndResetCurrencyAnims(CurrencyType currency)
+	{
+		if (currency == CurrencyType.Coins)
+		{
+			coinsTween?.Kill();
+			coinsIconTween?.Kill();
+			coinsTween = null;
+			coinsIconTween = null;
+
+			if (coinsTextRect != null)
+			{
+				coinsTextRect.DOKill();
+				coinsTextRect.anchoredPosition = coinsTextBasePos;
+				coinsTextRect.localScale = coinsTextBaseScale;
+			}
+
+			if (coinsIconRect != null)
+			{
+				coinsIconRect.DOKill();
+				coinsIconRect.anchoredPosition = coinsIconBasePos;
+				coinsIconRect.localScale = coinsIconBaseScale;
+			}
+
+			if (coinsIcon != null)
+				coinsIcon.color = new Color(coinsIcon.color.r, coinsIcon.color.g, coinsIcon.color.b, coinsIconBaseAlpha);
+
+			return;
+		}
+
+		pearlsTween?.Kill();
+		pearlsIconTween?.Kill();
+		pearlsTween = null;
+		pearlsIconTween = null;
+
+		if (pearlsTextRect != null)
+		{
+			pearlsTextRect.DOKill();
+			pearlsTextRect.anchoredPosition = pearlsTextBasePos;
+			pearlsTextRect.localScale = pearlsTextBaseScale;
+		}
+
+		if (pearlsIconRect != null)
+		{
+			pearlsIconRect.DOKill();
+			pearlsIconRect.anchoredPosition = pearlsIconBasePos;
+			pearlsIconRect.localScale = pearlsIconBaseScale;
+		}
+
+		if (pearlsIcon != null)
+			pearlsIcon.color = new Color(pearlsIcon.color.r, pearlsIcon.color.g, pearlsIcon.color.b, pearlsIconBaseAlpha);
 	}
 
 	private void AnimateCurrency(CurrencyType currency)
 	{
-		var t = currency == CurrencyType.Coins ? coinsText : pearlsText;
-		if (t == null) return;
-
-		var rt = t.transform as RectTransform;
+		var rt = currency == CurrencyType.Coins ? coinsTextRect : pearlsTextRect;
 		if (rt == null) return;
-
-		if (currency == CurrencyType.Coins) coinsTween?.Kill();
-		else pearlsTween?.Kill();
 
 		var seq = DOTween.Sequence().SetUpdate(true);
 		seq.Join(rt.DOPunchScale(Vector3.one * currencyPunchScale, currencyPunchDuration, 10, 0.9f));
@@ -369,13 +478,9 @@ public sealed class StoreUIController : MonoBehaviour
 	private void AnimateCurrencyIcon(CurrencyType currency)
 	{
 		var img = currency == CurrencyType.Coins ? coinsIcon : pearlsIcon;
-		if (img == null) return;
+		var rt = currency == CurrencyType.Coins ? coinsIconRect : pearlsIconRect;
 
-		var rt = img.rectTransform;
-		if (rt == null) return;
-
-		if (currency == CurrencyType.Coins) coinsIconTween?.Kill();
-		else pearlsIconTween?.Kill();
+		if (img == null || rt == null) return;
 
 		float baseAlpha = currency == CurrencyType.Coins ? coinsIconBaseAlpha : pearlsIconBaseAlpha;
 
@@ -383,8 +488,8 @@ public sealed class StoreUIController : MonoBehaviour
 
 		seq.Join(rt.DOPunchScale(Vector3.one * iconPunchScale, iconPunchDuration, 10, 0.9f));
 		seq.Join(rt.DOShakeAnchorPos(iconShakeDuration, iconShakeStrength, iconShakeVibrato, 90f, false, true));
-
 		seq.Join(img.DOFade(Mathf.Clamp01(iconFlashMinAlpha), iconFlashDuration).SetLoops(2, LoopType.Yoyo));
+
 		seq.OnComplete(() =>
 		{
 			if (img != null)

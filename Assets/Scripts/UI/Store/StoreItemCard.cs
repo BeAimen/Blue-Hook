@@ -39,14 +39,24 @@ public sealed class StoreItemCard : MonoBehaviour
 	[SerializeField] private Ease hideEase = Ease.InCubic;
 
 	[Header("Buy Success Press")]
-	[SerializeField, Range(0.8f, 1f)] private float pressScale = 0.97f;
-	[SerializeField] private float pressDuration = 0.08f;
-	[SerializeField, Range(1f, 1.2f)] private float popScale = 1.02f;
-	[SerializeField] private float popDuration = 0.12f;
-	[SerializeField] private float settleDuration = 0.10f;
-	[SerializeField] private Ease pressEase = Ease.OutCubic;
-	[SerializeField] private Ease popEase = Ease.OutBack;
-	[SerializeField] private Ease settleEase = Ease.OutCubic;
+	[SerializeField, Range(0.8f, 1f)] private float buyPressScale = 0.97f;
+	[SerializeField] private float buyPressDuration = 0.08f;
+	[SerializeField, Range(1f, 1.2f)] private float buyPopScale = 1.02f;
+	[SerializeField] private float buyPopDuration = 0.12f;
+	[SerializeField] private float buySettleDuration = 0.10f;
+	[SerializeField] private Ease buyPressEase = Ease.OutCubic;
+	[SerializeField] private Ease buyPopEase = Ease.OutBack;
+	[SerializeField] private Ease buySettleEase = Ease.OutCubic;
+
+	[Header("Equip Press")]
+	[SerializeField, Range(0.8f, 1f)] private float equipPressScale = 0.97f;
+	[SerializeField] private float equipPressDuration = 0.08f;
+	[SerializeField, Range(1f, 1.2f)] private float equipPopScale = 1.02f;
+	[SerializeField] private float equipPopDuration = 0.12f;
+	[SerializeField] private float equipSettleDuration = 0.10f;
+	[SerializeField] private Ease equipPressEase = Ease.OutCubic;
+	[SerializeField] private Ease equipPopEase = Ease.OutBack;
+	[SerializeField] private Ease equipSettleEase = Ease.OutCubic;
 
 	[Header("Buy Fail")]
 	[SerializeField] private float buyFailShakeDuration = 0.25f;
@@ -60,6 +70,7 @@ public sealed class StoreItemCard : MonoBehaviour
 	private Tween showTween;
 	private Tween hideTween;
 	private Tween buyTween;
+	private Tween equipTween;
 
 	public StoreItemSO Item => item;
 	public bool Matches(StoreItemSO other) => item != null && other != null && item == other;
@@ -171,9 +182,12 @@ public sealed class StoreItemCard : MonoBehaviour
 		showTween?.Kill();
 		hideTween?.Kill();
 		buyTween?.Kill();
+		equipTween?.Kill();
+
 		showTween = null;
 		hideTween = null;
 		buyTween = null;
+		equipTween = null;
 
 		if (rect != null)
 			rect.localScale = Vector3.one;
@@ -237,14 +251,27 @@ public sealed class StoreItemCard : MonoBehaviour
 		buyTween?.Kill();
 		buyTween = null;
 
-		const float baseScale = 1f;
-
 		var seq = DOTween.Sequence().SetUpdate(true);
-		seq.Append(rect.DOScale(baseScale * pressScale, pressDuration).SetEase(pressEase));
-		seq.Append(rect.DOScale(baseScale * popScale, popDuration).SetEase(popEase));
-		seq.Append(rect.DOScale(baseScale, settleDuration).SetEase(settleEase));
+		seq.Append(rect.DOScale(buyPressScale, buyPressDuration).SetEase(buyPressEase));
+		seq.Append(rect.DOScale(buyPopScale, buyPopDuration).SetEase(buyPopEase));
+		seq.Append(rect.DOScale(1f, buySettleDuration).SetEase(buySettleEase));
 
 		buyTween = seq;
+	}
+
+	public void PlayEquipAnim()
+	{
+		if (rect == null) rect = transform as RectTransform;
+
+		equipTween?.Kill();
+		equipTween = null;
+
+		var seq = DOTween.Sequence().SetUpdate(true);
+		seq.Append(rect.DOScale(equipPressScale, equipPressDuration).SetEase(equipPressEase));
+		seq.Append(rect.DOScale(equipPopScale, equipPopDuration).SetEase(equipPopEase));
+		seq.Append(rect.DOScale(1f, equipSettleDuration).SetEase(equipSettleEase));
+
+		equipTween = seq;
 	}
 
 	public void PlayBuyFail()

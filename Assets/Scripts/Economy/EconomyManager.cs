@@ -8,10 +8,10 @@ public sealed class EconomyManager : MonoBehaviour
 	public event Action<int> CoinsChanged;
 	public event Action<int> PearlsChanged;
 
-	public int Coins => Wallet.Coins;
-	public int Pearls => Wallet.Pearls;
+	public int Coins => Wallet != null ? Wallet.Coins : 0;
+	public int Pearls => Wallet != null ? Wallet.Pearls : 0;
 
-	WalletData Wallet
+	private WalletData Wallet
 	{
 		get
 		{
@@ -21,7 +21,7 @@ public sealed class EconomyManager : MonoBehaviour
 		}
 	}
 
-	void Awake()
+	private void Awake()
 	{
 		if (Instance && Instance != this)
 		{
@@ -78,8 +78,11 @@ public sealed class EconomyManager : MonoBehaviour
 	{
 		if (amount <= 0) return;
 
+		var w = Wallet;
+		if (w == null) return;
+
 		int before = Coins;
-		Wallet.AddCoins(amount);
+		w.AddCoins(amount);
 		if (Coins != before) CoinsChanged?.Invoke(Coins);
 	}
 
@@ -87,8 +90,11 @@ public sealed class EconomyManager : MonoBehaviour
 	{
 		if (amount <= 0) return;
 
+		var w = Wallet;
+		if (w == null) return;
+
 		int before = Pearls;
-		Wallet.AddPearls(amount);
+		w.AddPearls(amount);
 		if (Pearls != before) PearlsChanged?.Invoke(Pearls);
 	}
 
@@ -96,8 +102,11 @@ public sealed class EconomyManager : MonoBehaviour
 	{
 		if (amount <= 0) return true;
 
+		var w = Wallet;
+		if (w == null) return false;
+
 		int before = Coins;
-		bool ok = Wallet.TrySpendCoins(amount);
+		bool ok = w.TrySpendCoins(amount);
 		if (ok && Coins != before) CoinsChanged?.Invoke(Coins);
 		return ok;
 	}
@@ -106,8 +115,11 @@ public sealed class EconomyManager : MonoBehaviour
 	{
 		if (amount <= 0) return true;
 
+		var w = Wallet;
+		if (w == null) return false;
+
 		int before = Pearls;
-		bool ok = Wallet.TrySpendPearls(amount);
+		bool ok = w.TrySpendPearls(amount);
 		if (ok && Pearls != before) PearlsChanged?.Invoke(Pearls);
 		return ok;
 	}
