@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 84df4d3b0a1d5ea4eba4d7daecc6d6fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Scripts/Editor/ShowVariableDrawer.cs
+  uploadId: 635746

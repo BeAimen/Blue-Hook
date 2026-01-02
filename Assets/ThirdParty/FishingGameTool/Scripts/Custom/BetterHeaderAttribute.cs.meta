@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e307b661a107f864ca3f3c585853aec3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Scripts/Custom/BetterHeaderAttribute.cs
+  uploadId: 635746

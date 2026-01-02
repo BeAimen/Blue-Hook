@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f044f949199e4f498670c3a8788b270, type: 3}
+  m_Name: BoostCatchProbabilityData
+  m_EditorClassIdentifier: 
+  _commonProbability: 10
+  _uncommonProbability: 18
+  _rareProbability: 28
+  _epicProbability: 45
+  _legendaryProbability: 60
+  _minSafeFishingDistanceFactor: 8

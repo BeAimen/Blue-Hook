@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 85e932056f811a343b2b98880154b263
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Scripts/Character/FPPCamera.cs
+  uploadId: 635746

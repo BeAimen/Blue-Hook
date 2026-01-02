@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6e43b5e05e994b543997753d0eab0c13
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Scripts/Fishing/FishingBaitData.cs
+  uploadId: 635746

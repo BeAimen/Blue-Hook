@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ea38e2f33b919a3428a1f44cd0867217
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Scripts/Fishing/FishingFloatPathfinder.cs
+  uploadId: 635746

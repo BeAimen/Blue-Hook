@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5b8864d8e319e3d42bca7c4cf802552e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Scripts/Fishing/FishingLineStatus.cs
+  uploadId: 635746

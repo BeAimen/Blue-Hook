@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0b71a0ac3b1e6e4f96a828c69fd1ef6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/CatchProbability/ExampleCatchProbabilityData.asset
+  uploadId: 635746
