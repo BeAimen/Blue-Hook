@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 79aa8fce63d53b84ca32a1e7bb263a78
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Table/PicnicTable Variant.prefab
+  uploadId: 635746

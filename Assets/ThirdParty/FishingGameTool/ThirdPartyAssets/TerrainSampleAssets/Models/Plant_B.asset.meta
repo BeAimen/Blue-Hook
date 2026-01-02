@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97025d35e5b57294f92451cbaf836c12
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Models/Plant_B.asset
+  uploadId: 635746

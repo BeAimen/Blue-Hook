@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd1fcb10d2c5b5d4ba6e01a34e4735be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/TerrainLayers/Grass_B_TerrainLayer.terrainlayer
+  uploadId: 635746

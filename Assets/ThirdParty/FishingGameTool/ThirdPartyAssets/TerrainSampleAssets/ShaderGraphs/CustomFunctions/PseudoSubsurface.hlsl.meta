@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42c69bce689ca1845a44cd416f3614ef
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/ShaderGraphs/CustomFunctions/PseudoSubsurface.hlsl
+  uploadId: 635746

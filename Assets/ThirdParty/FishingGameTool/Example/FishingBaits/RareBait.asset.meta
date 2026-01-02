@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4a16863d9072fa843bf87e349ec5b42c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/FishingBaits/RareBait.asset
+  uploadId: 635746

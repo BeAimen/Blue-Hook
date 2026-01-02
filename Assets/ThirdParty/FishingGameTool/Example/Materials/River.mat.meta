@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f903a6401ddf0c488a9c076282ede92
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Materials/River.mat
+  uploadId: 635746

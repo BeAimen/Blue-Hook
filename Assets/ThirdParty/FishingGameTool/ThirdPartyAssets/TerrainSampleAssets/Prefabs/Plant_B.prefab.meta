@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a701dc0b49cb264c88918e012866821
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Prefabs/Plant_B.prefab
+  uploadId: 635746

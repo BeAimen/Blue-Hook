@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4775a09ccd762a42b26cb448a2763f0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Models/Grass_C.asset
+  uploadId: 635746

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1725cfb8e8bc060448ed7de25fa09062
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Scenes/DemoScene/DemoSceneLight.lighting
+  uploadId: 635746

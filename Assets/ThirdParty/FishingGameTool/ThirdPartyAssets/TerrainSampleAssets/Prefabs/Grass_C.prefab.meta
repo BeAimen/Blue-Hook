@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4c72217d56dcb6749a897a75cad1f34e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Prefabs/Grass_C.prefab
+  uploadId: 635746

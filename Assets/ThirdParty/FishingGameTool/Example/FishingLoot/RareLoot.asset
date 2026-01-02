@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1530bb86e5fd16742a966934f52c2c2f, type: 3}
+  m_Name: RareLoot
+  m_EditorClassIdentifier: 
+  _lootTier: 2
+  _lootType: 1
+  _weightRange:
+    _minWeight: 2
+    _maxWeight: 5
+  _lootRarity: 25
+  _lootName: Rare Item
+  _lootDescription: Example Rare Item.
+  _lootPrefab: {fileID: 6886775904149126491, guid: 4af28fe4afa2f0449aff41f11f11d19f,
+    type: 3}

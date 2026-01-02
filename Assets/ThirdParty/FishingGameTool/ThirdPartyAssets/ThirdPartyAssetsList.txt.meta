@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa205f8f992d664499dd363f5136c066
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/ThirdPartyAssetsList.txt
+  uploadId: 635746

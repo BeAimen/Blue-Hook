@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 430a6ee46b98fdd4a8dfb99f07eb5138
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/FishingRod/FishingRodAnimController.controller
+  uploadId: 635746

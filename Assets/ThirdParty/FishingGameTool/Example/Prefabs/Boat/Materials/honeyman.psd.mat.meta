@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e7649ed175910d4eb2766fd3a4af949
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Boat/Materials/honeyman.psd.mat
+  uploadId: 635746

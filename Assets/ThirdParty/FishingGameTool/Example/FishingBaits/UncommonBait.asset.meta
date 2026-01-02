@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 78ac01b256ffcae49828a39e2093a099
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/FishingBaits/UncommonBait.asset
+  uploadId: 635746

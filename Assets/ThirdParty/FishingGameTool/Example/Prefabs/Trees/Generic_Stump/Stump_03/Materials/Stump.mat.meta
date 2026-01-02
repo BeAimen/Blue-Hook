@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b31f544b4edaf54fa29eee7ad8cbec8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Trees/Generic_Stump/Stump_03/Materials/Stump.mat
+  uploadId: 635746

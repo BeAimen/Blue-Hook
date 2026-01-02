@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0d60fa801f5198842adc665c65047ac5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Bait/ExampleBaitPrefab.prefab
+  uploadId: 635746

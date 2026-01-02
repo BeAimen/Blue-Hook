@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef28ef08cdcc26146a9841b1af1fcbda
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Water/WaterBlock_50m.prefab
+  uploadId: 635746

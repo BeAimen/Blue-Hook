@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 79459efec17a4d00a321bdcc27bbc385
+timeCreated: 1484172856
+licenseType: Pro
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TextMesh Pro/Resources/Fonts
+    & Materials/LiberationSans SDF - Outline.mat
+  uploadId: 635746

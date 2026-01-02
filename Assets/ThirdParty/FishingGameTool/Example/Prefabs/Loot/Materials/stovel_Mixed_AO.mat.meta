@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55c5ceae91a5bd249941c5feba7c4387
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Loot/Materials/stovel_Mixed_AO.mat
+  uploadId: 635746

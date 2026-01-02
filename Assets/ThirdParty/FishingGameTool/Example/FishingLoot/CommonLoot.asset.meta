@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd19c46f920ade44892bc7fcadc5bec1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/FishingLoot/CommonLoot.asset
+  uploadId: 635746

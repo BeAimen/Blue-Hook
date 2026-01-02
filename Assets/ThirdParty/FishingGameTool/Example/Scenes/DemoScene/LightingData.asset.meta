@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: afe1102c11c815c459516b017a4d5252
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Scenes/DemoScene/LightingData.asset
+  uploadId: 635746

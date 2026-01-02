@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f43888832a156746a43f58b37b88717
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Character/Materials/PackedMaterial0.mat
+  uploadId: 635746

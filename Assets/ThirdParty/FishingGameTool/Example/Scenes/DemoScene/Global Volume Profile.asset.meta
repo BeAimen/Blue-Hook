@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa32c16936b002549b6ad445c4df1aeb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Scenes/DemoScene/Global Volume Profile.asset
+  uploadId: 635746

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f4afc2a6a46b104478049f9e3aa57cfe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Prefabs/Rocks/Materials/Rock_Overgrown_C.mat
+  uploadId: 635746

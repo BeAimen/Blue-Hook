@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8aa8def6286fc784ba128570ec475974
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Prefabs/GrassDry_C.prefab
+  uploadId: 635746

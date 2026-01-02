@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 19dd418233c4e5940af188d60647b063
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/HowFishingSystemWorks/Scenes/DemoScene/GlobalVolumeProfile.asset
+  uploadId: 635746

@@ -1,0 +1,8 @@
+﻿The demo scene uses several assets under the CC Attribution license of the Sketchfab website. 
+
+* Fishing Rod: Emiliano.Herrera.Galindo https://sketchfab.com/3d-models/fishing-rod-9e1061ea5d5a4d508d6b99a87a6690f9
+* Boat: AntijnvanderGun https://sketchfab.com/3d-models/dae-5-props-fishing-set-0f7adae523634a0c81fe43f65786ae45
+* Item: Dan-Levi Tømta https://sketchfab.com/3d-models/high-poly-rubber-boot-from-3d-scan-5eabc8a4e16a43a7a5ae37d0b0548354
+* Fishing Float: 3DDomino https://sketchfab.com/3d-models/float-8c4d9b32ea93441d93c7312c0d859668
+* Fisherman: Thunder https://sketchfab.com/3d-models/fisherman-eb9b2ac025a5492387bbe888a01bec02
+* Table: Derek Flanagan https://sketchfab.com/3d-models/picnic-table-low-poly-fe35acda3a5245da8459d1a062e28190

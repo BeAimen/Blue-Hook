@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8f586378b4e144a9851e7b34d9b748ee
+timeCreated: 1484171803
+licenseType: Pro
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TextMesh Pro/Resources/Fonts
+    & Materials/LiberationSans SDF.asset
+  uploadId: 635746

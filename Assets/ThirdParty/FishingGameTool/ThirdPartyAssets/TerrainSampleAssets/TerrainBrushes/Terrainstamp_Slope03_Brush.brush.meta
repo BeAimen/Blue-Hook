@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4bbbe659961263d4390b9322f0328fe0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope03_Brush.brush
+  uploadId: 635746

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5e1b58f75618fc340baeccee09741a0e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Prefabs/Rocks/Rock_Overgrown_B.prefab
+  uploadId: 635746

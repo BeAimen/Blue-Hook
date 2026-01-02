@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 176a42107ce66c44aa74a67424591597
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Prefabs/BushDry_A.prefab
+  uploadId: 635746

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a736d496d94993478c515d25ef68967
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/FishingLoot/LegendaryLoot.asset
+  uploadId: 635746

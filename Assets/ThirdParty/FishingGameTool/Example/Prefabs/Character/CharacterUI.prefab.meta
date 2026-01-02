@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa56ea51507959e4f9dbd4e1d1f4f37f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Character/CharacterUI.prefab
+  uploadId: 635746

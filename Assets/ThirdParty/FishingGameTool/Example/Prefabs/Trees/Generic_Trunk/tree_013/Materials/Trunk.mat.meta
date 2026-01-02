@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df5899b7045384d4aa680072e4b3e3eb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Trees/Generic_Trunk/tree_013/Materials/Trunk.mat
+  uploadId: 635746

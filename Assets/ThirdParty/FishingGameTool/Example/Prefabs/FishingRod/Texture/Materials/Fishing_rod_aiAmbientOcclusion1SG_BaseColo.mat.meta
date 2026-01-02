@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5244d25d484a3f489d9ad3535b67360
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/FishingRod/Texture/Materials/Fishing_rod_aiAmbientOcclusion1SG_BaseColo.mat
+  uploadId: 635746

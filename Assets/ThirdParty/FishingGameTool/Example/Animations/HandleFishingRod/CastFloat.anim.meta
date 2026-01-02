@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 399b337a321ebd948a7cda8bc5f27262
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Animations/HandleFishingRod/CastFloat.anim
+  uploadId: 635746

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a58f59e1c87cc474295d3317848069a3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Animations/HandleFishingRod/AttractLoot_right.anim
+  uploadId: 635746

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 98e650bb3e8aeb845b488cd1f9c6b9a7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/FishingFloat/FishingFloat.prefab
+  uploadId: 635746

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f2aed4f9147b9b64085f952e3c6e8c2f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Trees/Pines/Pine_002_new/Materials/Branches.mat
+  uploadId: 635746

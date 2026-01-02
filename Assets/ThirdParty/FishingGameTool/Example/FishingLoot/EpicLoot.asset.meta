@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aff93508027c2104b8da9a4364555531
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/FishingLoot/EpicLoot.asset
+  uploadId: 635746

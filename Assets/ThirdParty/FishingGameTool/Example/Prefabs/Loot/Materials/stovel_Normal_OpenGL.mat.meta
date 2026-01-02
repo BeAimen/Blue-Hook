@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 027117dc8d4499a44a642d7806b98ca5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Loot/Materials/stovel_Normal_OpenGL.mat
+  uploadId: 635746

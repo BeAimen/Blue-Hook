@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5e7ace55a7bfd0d4f9ba3c05024e9d79
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Prefabs/Fern_B.prefab
+  uploadId: 635746

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e43b5e05e994b543997753d0eab0c13, type: 3}
+  m_Name: RareBait
+  m_EditorClassIdentifier: 
+  _baitTier: 1
+  _baitName: 
+  _baitDescription: 
+  _baitPrefab: {fileID: 5238331070711694125, guid: 0d60fa801f5198842adc665c65047ac5,
+    type: 3}

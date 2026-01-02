@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c4fd999e0aa3a00449d8f25b904b9fd1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Animations/HandleFishingRod/CaughtLootStart.anim
+  uploadId: 635746

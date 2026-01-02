@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa4ffd32709146c448c403bfd045f3fb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/ThirdPartyAssets/TerrainSampleAssets/Models/Heather_B.asset
+  uploadId: 635746

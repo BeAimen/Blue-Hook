@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5626a1996c22254b9d43ca08196f67e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Trees/Pines/Pine_002_new/Materials/Trunk.mat
+  uploadId: 635746

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ec50a8754149a024cb80ea265b787af5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/HowFishingSystemWorks/Scenes/DemoScene.unity
+  uploadId: 635746

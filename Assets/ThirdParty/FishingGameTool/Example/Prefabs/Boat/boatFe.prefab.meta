@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1054d065f6d86014c99bbc0da1536c6d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 256250
+  packageName: Fishing Game Tool
+  packageVersion: 1.4
+  assetPath: Assets/FishingGameTool/Example/Prefabs/Boat/boatFe.prefab
+  uploadId: 635746
